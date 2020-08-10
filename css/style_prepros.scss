@@ -99,6 +99,7 @@ $color_g: #a7a7a7;
 }
 
 .header {
+  overflow: hidden;
   .navBurger {
     @include min-screen(767px) {
       display: none;
@@ -562,6 +563,8 @@ $color_g: #a7a7a7;
 }
 
 .product {
+  overflow: hidden;
+
   background-color: $color_w;
   padding: 3.94rem 0 2.5rem;
 
@@ -693,6 +696,8 @@ $color_g: #a7a7a7;
 }
 
 .beautiful {
+  overflow: hidden;
+
   border-top: solid 0.06rem $color_g;
   padding: 4.375rem 0 2.5rem;
 
@@ -920,6 +925,8 @@ $color_g: #a7a7a7;
 
 
 .super {
+  overflow: hidden;
+
 
   background-color: #f2f2f2;
   padding: 3.92rem 0;
@@ -1070,6 +1077,8 @@ $color_g: #a7a7a7;
 
 
 .pricing {
+  overflow: hidden;
+
   .container {
     @include conteiner;
   }
@@ -1210,6 +1219,8 @@ $color_g: #a7a7a7;
 
 
 .get {
+  overflow: hidden;
+
   padding: 2.5rem 0;
   background-color: $color_db;
 
@@ -1335,6 +1346,7 @@ $color_g: #a7a7a7;
 
 
 .plan {
+  overflow: hidden;
 
   .container {
     @include conteiner;
@@ -1531,6 +1543,7 @@ $color_g: #a7a7a7;
 }
 
 .contact {
+
   padding: 3.75rem 0 0 0;
   background-color: #ededed;
 

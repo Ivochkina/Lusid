@@ -12,6 +12,7 @@
   box-sizing: border-box; }
 
 .header {
+  overflow: hidden;
   padding-top: 2.5rem;
   background-image: url("../images/bg_1_01.jpg");
   background-repeat: no-repeat;
@@ -336,6 +337,7 @@
 @media screen and (max-width: 320px) {
   font-size: 1.88rem; }
 .product {
+  overflow: hidden;
   background-color: #ffffff;
   padding: 3.94rem 0 2.5rem; }
   .product .container {
@@ -443,6 +445,7 @@
       padding: 1.88rem 0.9rem; } }
 
 .beautiful {
+  overflow: hidden;
   border-top: solid 0.06rem #a7a7a7;
   padding: 4.375rem 0 2.5rem; }
   .beautiful .container {
@@ -615,6 +618,7 @@
       background-color: #16151a; } }
 
 .super {
+  overflow: hidden;
   background-color: #f2f2f2;
   padding: 3.92rem 0; }
   .super .container {
@@ -728,6 +732,7 @@
       padding: 1.88rem 0.94rem; } }
 
 .pricing {
+  overflow: hidden;
   padding: 3.94rem 0;
   background-image: url("../images/owl_bg_07.jpg");
   background-repeat: no-repeat;
@@ -838,6 +843,7 @@
       padding: 1.88rem 0.94rem; } }
 
 .get {
+  overflow: hidden;
   padding: 2.5rem 0;
   background-color: #1a1a1a; }
   .get .flex-wrap {
@@ -928,6 +934,7 @@
     transform: translate(0, 0); }
 
 .plan {
+  overflow: hidden;
   background-color: #ffffff;
   padding: 3.75rem 0 1.88rem; }
   .plan .container {
